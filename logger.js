@@ -1,6 +1,7 @@
 const async = require('async');
 const format = require('./lib/format');
 const npmlog = require('./Handlers/npmlogHandler');
+const syslog = require('./Handlers/syslogHandler');
 
 const Logger = class Logger {
 
@@ -61,3 +62,5 @@ const Logger = class Logger {
 };
 
 module.exports = Logger;
+module.npmlog = npmlog;
+module.syslog = syslog;
