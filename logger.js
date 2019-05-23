@@ -62,5 +62,3 @@ const Logger = class Logger {
 };
 
 module.exports = Logger;
-module.npmlog = npmlog;
-module.syslog = syslog;
