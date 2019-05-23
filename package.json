@@ -1,0 +1,36 @@
+{
+  "name": "node-logger",
+  "version": "0.1.0",
+  "description": "node-logger can send your logs wherever you want :) Currently under development, it can send them to your terminal, a file and/or to your Syslog.",
+  "main": "logger.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rcolet/node-logger.git"
+  },
+  "keywords": [
+    "log",
+    "logger",
+    "handlers"
+  ],
+  "author": "Rémi Colet <remi.colet@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rcolet/node-logger/issues"
+  },
+  "homepage": "https://github.com/Rcolet/node-logger#readme",
+  "dependencies": {
+    "async": "^2.6.2",
+    "config": "^3.1.0",
+    "dotenv-safe": "^6.1.0",
+    "json5": "^2.1.0",
+    "modern-syslog": "^1.1.4",
+    "moment": "^2.24.0",
+    "npmlog": "^4.1.2"
+  }
+}
