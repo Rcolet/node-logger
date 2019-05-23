@@ -1,6 +1,6 @@
 {
   "name": "node-logger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "node-logger can send your logs wherever you want :) Currently under development, it can send them to your terminal, a file and/or to your Syslog.",
   "main": "logger.js",
   "directories": {
